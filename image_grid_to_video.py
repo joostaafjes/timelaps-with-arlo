@@ -24,7 +24,7 @@ img_height = None
 topdir = 'timelaps/muis/'
 # hour = 9
 
-if True:
+if False:
     min_date = datetime.datetime(2018, 11, 2)
     max_date = datetime.datetime.now()
     # min_date = datetime.datetime(2019, 3, 27)
