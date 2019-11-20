@@ -1,0 +1,68 @@
+None
+expected str, bytes or os.PathLike object, not NoneType
+None
+expected str, bytes or os.PathLike object, not NoneType
+rtsps://vzwow51-z1-prod.ar.arlo.com:443/vzmodulelive/52M18373AD219_1552266005488?egressToken=d1a91f34_8bc6_4246_8330_f523ef83e469&userAgent=iOS&cameraId=52M18373AD219_1552266005488
+[Errno 2] No such file or directory: 'ffmpeg': 'ffmpeg'
+rtsps://vzwow36-z1-prod.ar.arlo.com:443/vzmodulelive/52M18373AD219_1552269603281?egressToken=fbff6020_b6d5_48a6_ba6c_45f5fdaee23a&userAgent=iOS&cameraId=52M18373AD219_1552269603281
+[Errno 2] No such file or directory: 'ffmpeg': 'ffmpeg'
+None
+expected str, bytes or os.PathLike object, not NoneType
+None
+expected str, bytes or os.PathLike object, not NoneType
+None
+expected str, bytes or os.PathLike object, not NoneType
+Exception in thread EventStream:
+Traceback (most recent call last):
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 291, in QueueEvents
+    self.event_streams[basestation_id].Disconnect()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 96, in Disconnect
+    self.Unregister()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 116, in Unregister
+    if self.heartbeat_thread != threading.current_thread():
+AttributeError: 'EventStream' object has no attribute 'heartbeat_thread'
+
+Exception ignored in: <function EventStream.__del__ at 0x10b9546a8>
+Traceback (most recent call last):
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 61, in __del__
+    self.Disconnect()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 96, in Disconnect
+    self.Unregister()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 116, in Unregister
+    if self.heartbeat_thread != threading.current_thread():
+AttributeError: 'EventStream' object has no attribute 'heartbeat_thread'
+None
+expected str, bytes or os.PathLike object, not NoneType
+None
+expected str, bytes or os.PathLike object, not NoneType
+None
+expected str, bytes or os.PathLike object, not NoneType
+Exception in thread EventStream:
+Traceback (most recent call last):
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/threading.py", line 917, in _bootstrap_inner
+    self.run()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/threading.py", line 865, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 291, in QueueEvents
+    self.event_streams[basestation_id].Disconnect()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 96, in Disconnect
+    self.Unregister()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 116, in Unregister
+    if self.heartbeat_thread != threading.current_thread():
+AttributeError: 'EventStream' object has no attribute 'heartbeat_thread'
+
+Exception ignored in: <function EventStream.__del__ at 0x104b716a8>
+Traceback (most recent call last):
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 61, in __del__
+    self.Disconnect()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 96, in Disconnect
+    self.Unregister()
+  File "/Users/joost/miniconda3/envs/arlo/lib/python3.7/site-packages/Arlo.py", line 116, in Unregister
+    if self.heartbeat_thread != threading.current_thread():
+AttributeError: 'EventStream' object has no attribute 'heartbeat_thread'
+None
+expected str, bytes or os.PathLike object, not NoneType
